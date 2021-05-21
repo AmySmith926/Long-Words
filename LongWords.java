@@ -9,7 +9,7 @@ public class LongWords {
 		double sum = 0;
 
 		try (Scanner scan = new Scanner(System.in)) {
-			System.out.println("Enter some words press 0 to end?");
+			System.out.println("Enter a few  words then press 0 to end?");
 			String input = scan.nextLine();
 
 			while (!input.equals("0")) { // compare string using to see if 0 was entered
